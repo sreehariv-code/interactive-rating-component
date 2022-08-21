@@ -153,3 +153,19 @@ main {
     margin-top: 1.5em;
   }
 }
+
+@media  screen and (max-width: 400px) {
+    main{
+        .card{
+            padding:15px;
+            .left{
+                .rating-buttons{
+                    .rating{
+                        width:45px;
+                        height:45px;
+                    }
+                }
+            }
+        }
+    }    
+}

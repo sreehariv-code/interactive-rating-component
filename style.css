@@ -143,4 +143,14 @@ main .card .submit:hover {
   text-align: center;
   font-size: 0.85rem;
   margin-top: 1.5em;
+}
+
+@media screen and (max-width: 400px) {
+  main .card {
+    padding: 15px;
+  }
+  main .card .left .rating-buttons .rating {
+    width: 45px;
+    height: 45px;
+  }
 }/*# sourceMappingURL=style.css.map */
