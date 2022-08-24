@@ -4,7 +4,7 @@ var right = document.querySelector(".right");
 var submit_btn = document.querySelector(".submit");
 var preview = document.getElementById("print");
 var text = "";
-console.log(preview.innerHTML);
+// console.log(preview.innerHTML);
 var rating = 0;
 submit_btn.onclick = handleSubmit;
 rating_btns.forEach((btn) => {
